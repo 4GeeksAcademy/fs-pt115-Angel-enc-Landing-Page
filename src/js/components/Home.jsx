@@ -1,15 +1,14 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
 import { Card } from "./Card";
 import { Jumbotron } from "./Jumbotron";
 import { NavBar } from "./NavBar";
 
 
-//create your first component
+//ccomponente principal Home.
 const Home = () => {
-
+	//aqui la función que recibe una frase y la imprime en consola.
 	const dimeTuFrase = (frase) => {
 		console.log(frase);
 	}

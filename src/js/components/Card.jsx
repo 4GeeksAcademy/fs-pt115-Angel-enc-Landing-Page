@@ -1,6 +1,8 @@
+//componente reutilizable para la informacíon de los juegos.
 export const Card = ({nombre, imagen, Sinopsis, frase, dimeTuFrase}) => {
 
 	return (
+		
 		<div className="col-12 col-sm-6 col-md-4 d-flex">
 			<div className="card mb-4 shadow-sm flex-fill" >
 				<div className="image-container">
