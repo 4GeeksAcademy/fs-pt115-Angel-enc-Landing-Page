@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Card } from "./Card";
 import { Jumbotron } from "./Jumbotron";
+import { NavBar } from "./NavBar";
 
 
 //create your first component
@@ -18,6 +19,7 @@ const Home = () => {
 
 	return (
 		<div className="container pt-5">
+			<NavBar />
 			<Jumbotron />
 			<h1 className="text-center mb-4">"Saga Baldur´s Gate"</h1>
 			<div className="row">
